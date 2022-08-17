@@ -1,0 +1,5 @@
+node_modules
+.env
+.vs
+main/config.json
+.eslintrc.json
