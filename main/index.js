@@ -14,7 +14,7 @@ const client = new Client({
 
 // When the client is ready, run this code (only once)
 client.once("ready", () => {
-  client.user.setActivity("Joe", { type: "PLAYING" });
+  client.user.setActivity("Put something here", { type: "PLAYING" });
   console.log("Ready!");
 });
 
@@ -53,15 +53,6 @@ client.on("interactionCreate", async (interaction) => {
   }
 });
 
-/* Misc functionality */
-
-client.on("messageCreate", (message) => {
-  if (message.content.toLowerCase().includes("sus"))
-    message.channel.send("AMONGUS");
-  if (message.content.includes("weezer")) {
-    for (let i = 0; i < 4; i++) message.channel.send("ew Weezer");
-  }
-});
 
 // Login to Discord with your client's token
 client.login(token);
