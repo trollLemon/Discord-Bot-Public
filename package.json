@@ -36,7 +36,7 @@
     "libsodium-wrappers": "^0.7.9",
     "node-fetch-commonjs": "^3.1.1",
     "opusscript": "^0.0.8",
-    "sharp": "^0.30.5",
+    "sharp": "^0.32.6",
     "ytdl-core": "^4.10.0",
     "ytsr": "^3.6.0"
   },
